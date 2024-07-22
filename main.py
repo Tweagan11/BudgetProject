@@ -69,7 +69,7 @@ if __name__ == '__main__':
         print("Incorrect input")
 
     # Path to File
-    PATH = f"C:/Users/Owner/OneDrive/Desktop/BANK STATEMENTS/2024/{TIME}"
+    PATH = f"C:/Users/ChangeMe/Desktop/Folder_of_CSV/{TIME}"
     try:
         files = os.listdir(PATH)
         for file in files:
